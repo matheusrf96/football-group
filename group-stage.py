@@ -40,7 +40,7 @@ def match(team1, team2):
 	print
 
 def teamname(t):
-	tname = raw_input("Insert the team name: ")
+	tname = raw_input("Team name: ")
 	t.name = tname
 	tname = ' '
 
@@ -96,7 +96,7 @@ def sortTable(teamlist):
 
 def showTable(n):
 	print "TABLE: "
-	print "Team \t\t Pts \t V \t D \t L \t GS \t GD"
+	print "Team \t\t Pts \t W \t D \t L \t GS \t GD"
 	for i in range(n):
 		print newlist[i].name + ": \t" + str(newlist[i].pts) + "\t" + str(newlist[i].v) + "\t" + str(newlist[i].d) + "\t" + str(newlist[i].l) + "\t" + str(newlist[i].gs) + "\t" + str(newlist[i].gd)
 
